@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REFERENCES</title>
+    <link rel="stylesheet" type="text/css" href="references.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJopfM2P01j8Fq2bRG7p8B06N/t2G4N" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="home.html" class="logo-link">
+                <img src="images/camel-logo.png" alt="Logo" class="logo-image">
+                <span class="logo-text">MOGADORA</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul class="tabs">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="moodboard.html">MOODBOARD</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="references.html">REFERENCES</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <main>
+            <h1>Reference List</h1>
+            <ul>
+                <li>Let's Enhance (2023, December 13). Boost: Enhance image quality. [Online]. Available: https://letsenhance.io/boost</li>
+                <li>GreatStack (2023, December 13). How To Make Website Using HTML & CSS | Full Responsive Multi Page Website Design Step by Step. [Video file]. Available: https://m.youtube.com/watch?v=kMT54MPz9oE</li>
+                <li>Font Awesome (2023, December 13). Font Awesome Icons [Online]. Available: https://fontawesome.com/v4/icons/</li>
+                <li>ChatGPT. (2023). Website. Retrieved December 13, 2023, from https://chatgpt.com: https://chatgpt.com</li>
+                <li>Miro (2023, December 13). Make a Moodboard https://miro.com/aq/paid-search/make-a-moodboard/</li>
+            </ul>
+    </section>
+
+    
+
+<br> 
+<hr/>
+
+    <!-- Footer section -->
+    <section class="footer">
+        <p>© 2023 MOGADORA. All rights reserved. No part of this site may be reproduced without our written permission.</p>
+        <p>Made with <i class="fa fa-heart-o"></i> by Samia</p>
+        <div class="icons">
+            <a href="https://instagram.com/samia__ef/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/samia-el-fougani-404bbb1b1/"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <!-- JavaScript code for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- End of JavaScript code for Toggle Menu -->
+
+</body>
+
+</html>

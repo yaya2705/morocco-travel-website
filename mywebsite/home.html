@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <title>HOME</title>
+    <script type="text/javascript" src="home.js" defer></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+       <nav>
+            <a href="home.html" class="logo-link">
+                <img src="images/camel-logo.png" alt="Logo" class="logo-image">
+                <span class="logo-text">MOGADORA</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul class="tabs">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="moodboard.html">MOODBOARD</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="references.html">REFERENCES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+    <div class="text-box">
+       <h1>Welcome to Mogadora</h1>
+       <p>Plan Your Moroccan Odyssey: Uncover captivating destinations for your nest travel escapade.<br>Explore our moodboard to uncover the inspiration behind our design.</p>
+       <a href="moodboard.html" class="home-link">Moodboard</a>
+    </div>
+
+ </section>
+
+
+<!-- a new section -->
+
+<section class="course">
+    <h1>Fun Facts</h1>
+
+    <div class="row">
+        <div class="course-col">
+            <h3><em>There is a Blue City and also a Red City in Morocco</em></h3>
+        </div>
+        <div class="course-col">
+            <h3><em>The oldest university is in Fez, Morocco</em></h3>
+        </div>
+        <div class="course-col">
+            <h3><em>The Barbary Lion is the national animal</em></h3>
+        </div>
+    </div>
+</section>
+
+
+<!-- a new section -->
+
+<section class="campus">
+    <h1>Destinations</h1>
+
+    <div class="row">
+        <div class="campus-col">
+            <a href="destinations.html#on-the-rise" target="_blank">
+              <img src="images/home-atay.jpeg" alt="Atay">
+             <div class="layer">
+                    <h3><strong>On The Rise</strong></h3>
+             </div>
+            </a>
+        </div>
+        <div class="campus-col">
+            <a href="destinations.html#popular" target=_blank>
+              <img src="images/home-riad.jpeg" alt="Riad">
+             <div class="layer">
+                    <h3><strong>Popular</strong></h3>
+             </div>
+            </a>
+        </div>
+        <div class="campus-col">
+            <a href="destinations.html#hidden-gems" target="_blank">
+              <img src="images/home-tebsil.jpeg" alt="Tebsil">
+             <div class="layer">
+                    <h3><strong>Hidden Gems</strong></h3>
+             </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+ <!-- below is the JavaScript code  for Toggle Menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+<!-- above is the end of the JavaScript code for Toggle Menu -->
+
+<br> 
+<hr/>
+<!-- footer section -->
+
+<section class="footer">
+    <p>© 2023 MOGADORA. All rights reserved. No part of this site may be reproduced without our written permission.</p>
+    <p>Made with <i class="fa fa-heart-o"></i> by Samia</p>
+    <div class="icons">
+        <a href="https://instagram.com/samia__ef/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/samia-el-fougani-404bbb1b1/"><i class="fa fa-linkedin"></i></a>
+    </div>
+</section>
+</body>
+</html>
+

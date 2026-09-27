@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESTINATIONS</title>
+    <link rel="stylesheet" type="text/css" href="destinations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJopfM2P01j8Fq2bRG7p8B06N/t2G4N" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html" class="logo-link">
+                <img src="images/camel-logo.png" alt="Logo" class="logo-image">
+                <span class="logo-text">MOGADORA</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul class="tabs">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="moodboard.html">MOODBOARD</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="references.html">REFERENCES</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <section class="ontherise" id="on-the-rise">
+            <h1>On The Rise</h1>
+            <div class="container">
+                <div class="left-section">
+                    <div class="layer">
+                    <h1><strong>TANGIER</strong></h1>
+                    </div> 
+                    <img src="images/tangier-port2.jpg" alt="Tangier Daytime">
+                    <img src="images/tangier-port.jpg" alt="Tangier Daytime">
+                </div>
+                <div class="right-section">
+                    <div class="layer">
+                    <h1><strong>CHEFCHAOUEN</strong></h1> 
+                    </div>
+                    <img src="images/chefchaouen.jpg" alt="Chefchaouen Daytime">
+                    <img src="images/chefchaouen2.jpg" alt="Chefchaouen At Night">
+                </div>
+            </div>
+        </section>
+        <section class="popular" id="popular">
+            <h1>Popular</h1>
+            <div class="container">
+                <div class="left-section">
+                    <div class="layer">
+                    <h1><strong>MARRAKESH</strong></h1> 
+                    </div>
+                    <img src="images/marrakesh.jpg" alt="Marrakesh Daytime">
+                    <img src="images/marrakesh2.jpg" alt="Marrakesh At Night">
+                </div>
+                <div class="right-section">
+                    <div class="layer">
+                    <h1><strong>AGADIR</strong></h1> 
+                    </div>
+                    <img src="images/agadir.PNG" alt="Agadir Daytime">
+                    <img src="images/agadir22.jpg" alt="Agadir At Night">
+                </div>
+            </div>
+        </section>
+        <section class="hiddengems" id="hidden-gems">
+            <h1>Hidden Gems</h1>
+            <div class="container">
+                <div class="left-section">
+                    <div class="layer">
+                    <h1><strong>IFRANE</strong></h1> 
+                    </div>
+                    <img src="images/ifrane-snow2.jpeg" alt="Ifrane Daytime">
+                    <img src="images/ifrane.jpg" alt="Ifrane At Night">
+                </div>
+                <div class="right-section">
+                    <div class="layer">
+                    <h1><strong>MERZOUGA</strong></h1> 
+                    </div>
+                    <img src="images/merzouga2.jpeg" alt="Merzouga Daytime">
+                    <img src="images/merzouga.jpg" alt="Merzouga At Night">
+                </div>
+            </div>
+        </section>
+    </section>
+
+<br> 
+<hr/>
+
+    <!-- Footer section -->
+    <section class="footer">
+        <p>© 2023 MOGADORA. All rights reserved. No part of this site may be reproduced without our written permission.</p>
+        <p>Made with <i class="fa fa-heart-o"></i> by Samia</p>
+        <div class="icons">
+            <a href="https://instagram.com/samia__ef/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/samia-el-fougani-404bbb1b1/"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <!-- JavaScript code for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- End of JavaScript code for Toggle Menu -->
+
+</body>
+
+</html>

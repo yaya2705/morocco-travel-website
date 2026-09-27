@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOODBOARD</title>
+    <link rel="stylesheet" type="text/css" href="moodboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJopfM2P01j8Fq2bRG7p8B06N/t2G4N" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="home.html" class="logo-link">
+                <img src="images/camel-logo.png" alt="Logo" class="logo-image">
+                <span class="logo-text">MOGADORA</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul class="tabs">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="moodboard.html">MOODBOARD</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="references.html">REFERENCES</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="image-box-container">
+            <img src="images/moodboard-image.png" alt="Mood Board Image" class="image=box">
+            <p>Morocco, a land where tradition meets modernity, where ancient tales intertwine with modern aspirations, <br> is a destination that promises an unforgettable journey, a kaleidoscope of experiences that will forever capture your heart.
+            </p>
+        </div>
+    </section>
+
+    <section class="main">
+        <p></p>
+    </section>
+
+    <br> 
+    <hr/>
+
+    <!-- Footer section -->
+    <section class="footer">
+        <p>© 2023 MOGADORA. All rights reserved. No part of this site may be reproduced without our written permission.</p>
+        <p>Made with <i class="fa fa-heart-o"></i> by Samia</p>
+        <div class="icons">
+            <a href="https://instagram.com/samia__ef/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/samia-el-fougani-404bbb1b1/"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <!-- JavaScript code for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- End of JavaScript code for Toggle Menu -->
+
+</body>
+
+</html>

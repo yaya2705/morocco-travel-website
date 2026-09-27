@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <script src="contact.js"></script>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofGJopfM2P01j8Fq2bRG7p8B06N/t2G4N" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!--alert message start 
+<div class="alert-success">
+    <span>Message Sent! Thank you for contacting us.</span>
+</div> 
+<div class="alert-error">
+    <span>Something went wrong! Please try again.</span>
+</div> -->
+ <!--alert message end -->
+
+
+    <section class="header">
+        <nav>
+            <a href="home.html" class="logo-link">
+                <img src="images/camel-logo.png" alt="Logo" class="logo-image">
+                <span class="logo-text">MOGADORA</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul class="tabs">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="moodboard.html">MOODBOARD</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="references.html">REFERENCES</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- contact section start -->
+        <section class="contact-section">
+            <div class="contact-info">
+                <div><i class="fas fa-map-marker-alt"></i>Address, City, Country</div>
+                <div><i class="fas fa-envelope"></i>contact@email.com</div>
+                <div><i class="fas fa-phone"></i>+00 0000 000 000</div>
+                <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5PM</div>
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form class="contact" action="" method="post">
+                    <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                    <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <input type="submit" name="submit" class="send-btn" value="Send">
+                </form>
+            </section>
+            <!-- contact section end -->
+        </div>
+        
+
+    
+
+
+    <!-- JavaScript code for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- End of JavaScript code for Toggle Menu -->
+
+</body>
+
+</html>
