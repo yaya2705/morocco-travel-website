@@ -18,7 +18,7 @@ A responsive multi-page travel website showcasing Morocco's destinations, built 
 
 ## Live site
 
-[View the live site](#) <!-- replace # with your GitHub Pages link once it's set up -->
+[View the live site](https://yaya2705.github.io/morocco-travel-website/)
 
 ## Notes
 
